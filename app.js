@@ -57,7 +57,7 @@ class App{
         this.camera.add( this.listener );
         
         const self = this;
-        fetch( 'questions.json' ).then( response => response.json() ).then( obj =>{
+        fetch( '/questions.json' ).then( response => response.json() ).then( obj =>{
             self.questions = obj;
             self.createUI();
         });
