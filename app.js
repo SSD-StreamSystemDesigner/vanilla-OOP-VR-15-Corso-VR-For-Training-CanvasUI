@@ -1,12 +1,12 @@
 
-import * as THREE from './libs/three/three.module.js';
-import { GLTFLoader } from './libs/three/jsm/GLTFLoader.js';
-import { RGBELoader } from './libs/three/jsm/RGBELoader.js';
-import { LoadingBar } from './libs/LoadingBar.js';
-import { VRButton } from './libs/VRButton.js';
-import { XRControllerModelFactory } from './libs/three/jsm/XRControllerModelFactory.js';
-import { Stats } from './libs/stats.module.js';
-import { CanvasUI } from './libs/CanvasUI.js';
+import * as THREE from './src/libs/three/three.module.js';
+import { GLTFLoader } from './src/libs/three/jsm/GLTFLoader.js';
+import { RGBELoader } from './src/libs/three/jsm/RGBELoader.js';
+import { LoadingBar } from './src/libs/LoadingBar.js';
+import { VRButton } from './src/libs/VRButton.js';
+import { XRControllerModelFactory } from './src/libs/three/jsm/XRControllerModelFactory.js';
+import { Stats } from './src/libs/stats.module.js';
+import { CanvasUI } from './src/libs/CanvasUI.js';
 
 class App{
 	constructor(){
